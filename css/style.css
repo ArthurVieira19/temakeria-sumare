@@ -1219,10 +1219,12 @@ button.bento__item:hover::after { opacity: 1; }
    ========================================================= */
 .reviews__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 1.4rem;
   align-items: start;
 }
+.reviews__grid > .review { grid-column: span 2; }
+.reviews__grid > .review:nth-child(n + 4) { grid-column: span 3; margin-top: 0.6rem; }
 .review {
   display: flex;
   flex-direction: column;
@@ -1568,6 +1570,7 @@ button.bento__item:hover::after { opacity: 1; }
   .rodizio__collage { width: min(100%, 520px); margin-inline: auto; order: 2; }
 
   .reviews__grid { grid-template-columns: 1fr; max-width: 560px; margin-inline: auto; }
+  .reviews__grid > .review, .reviews__grid > .review:nth-child(n + 4) { grid-column: auto; margin-top: 0; }
   .review--featured { transform: none !important; }
 
   .order__grid { grid-template-columns: 1fr; max-width: 560px; }

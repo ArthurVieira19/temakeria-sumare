@@ -44,7 +44,7 @@ Este documento reúne todas as informações institucionais, operacionais, diret
 
 ### Regras de conteúdo
 * **Nenhum preço no site** (nem do rodízio, nem de itens). Quem quiser valores é direcionado ao WhatsApp ou ao cardápio do Anota Aí.
-* **Depoimentos:** por enquanto são **fictícios** (marcados com comentário no HTML). ⏳ Substituir por avaliações reais do Google **antes de publicar**.
+* **Depoimentos:** são **avaliações reais do Google** (5 estrelas), copiadas dos prints enviados pelo cliente, com o texto original. A avaliação de Daniela Silva foi reproduzida só no trecho elogioso (a parte da sugestão de melhoria ficou de fora). Novas avaliações entram em `index.html`, seção `#depoimentos`, sempre com o texto original.
 * Não há foto do **Sushi Burguer** nem do **Temaki Salmão Crocante**. Os cards deles usam ilustração em traço (SVG) sobre cor sólida, nunca a foto de outro prato.
 * O site não tem carrinho nem pedido próprio: todo pedido sai para o Anota Aí ou para o WhatsApp.
 
@@ -100,7 +100,7 @@ O logo é um **disco vermelho com lettering de pincel**. Esse disco é o fio con
 5. **Rodízio por dentro:** "O que tem no nosso **rodízio?**". Colagem de fotos + abas Frios / Quentes / Doces com a lista oficial. Horários e CTA "Consultar valores no WhatsApp".
 6. **Por que nos escolher?** 3 pilares editoriais com ideogramas: peixe fresco (鮮), ambiente aconchegante (和), agilidade (速).
 7. **Galeria:** grid assimétrico (bento) com 7 fotos, lightbox (`<dialog>`) e tile do Instagram.
-8. **Depoimentos:** 3 cards (⏳ fictícios por enquanto) + link para as avaliações no Google.
+8. **Depoimentos:** 5 avaliações reais do Google (3 em cima, 2 embaixo) + link para as avaliações no Google.
 9. **Como pedir:** Delivery (Anota Aí), Retirada no balcão (WhatsApp), No local (ordem de chegada).
 10. **Localização e Horários:** status ao vivo, tabela de horários com o período atual destacado, endereço, telefones, mapa escuro, botões "Como chegar" e "Ver no Google".
 11. **CTA final:** "Bateu a **fome?**" com disco vermelho crescendo no scroll.
@@ -140,7 +140,7 @@ O logo é um **disco vermelho com lettering de pincel**. Esse disco é o fio con
 
 ## ❓ 9. Pendências (aguardando o cliente)
 
-1. ⏳ **Depoimentos reais** do Google para substituir os fictícios (obrigatório antes de publicar).
+1. ✅ Depoimentos reais do Google já incluídos (ver seção 3).
 2. ⏳ Fotos do **Sushi Burguer** e do **Temaki Salmão Crocante** (os cards podem trocar a ilustração pela foto).
 3. ⏳ Confirmar a classificação de itens ambíguos do rodízio (Empanado Sil, Ferinha, Goiabinha).
 4. ⏳ Confirmar se o telefone fixo (19) 3828-4466 continua válido (veio do material de divulgação).
